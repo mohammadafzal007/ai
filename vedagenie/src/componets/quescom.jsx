@@ -83,7 +83,7 @@ const Questionnaire = () => {
     const token = localStorage.getItem('token');
 
     try {
-      const response = await fetch('http://localhost:5000/api/questionnaire/', {
+      const response = await fetch('https://ai-1-qxa9.onrender.com/api/questionnaire/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
